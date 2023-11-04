@@ -2,11 +2,32 @@
     text-align: justify;
     font-family: sans-serif;
     background-color: lightblue;
+     border: 1px solid red;
+}
+
+h1 {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 40px;
 }
 
 img {
     height: auto;
     width: 260;
+    display: inline-block;
+
+}
+
+.desc {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 65%;
+}
+
+p.desc {
+    padding: 5px;
 }
 
 .info {
